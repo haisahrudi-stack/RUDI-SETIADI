@@ -1,0 +1,1201 @@
+{
+  "pengaturan": {
+    "namaKoperasi": "Koperasi Kelurahan Merah Putih (KKMP) Singotrunan",
+    "namaUnit": "Lumbung Pangan Merah Putih",
+    "alamatKoperasi": "Jl. Basuki Rahmat No. 48, Kel. Singotrunan, Kec. Banyuwangi, Jawa Timur",
+    "kontakWhatsApp": "0812-3456-7890",
+    "jamLayanan": "Senin - Sabtu, 08.00 - 15.00 WIB",
+    "plafonAwalRp": 300000,
+    "plafonMaksimalRp": 1000000,
+    "tenorMaksUmumBulan": 3,
+    "tenorMaksPetaniBulan": 4,
+    "tarifJasaPerBulanPersen": 2,
+    "batasPersetujuanManajerRp": 500000,
+    "marginMaksPaketPersen": 6,
+    "maksPaketAktifPerAnggota": 2,
+    "imbalanSimpananPerBulanPersen": 0.5,
+    "cadanganPanganDaruratPersen": 2,
+    "cadanganPiutangTakTertagihPersen": 3,
+    "templateWaJatuhTempo": "Halo [Nama], pinjaman pangan Anda sebesar Rp[jumlah] jatuh tempo pada [tanggal]. Silakan lakukan pembayaran di kantor Koperasi Merah Putih Singotrunan. Terima kasih.",
+    "templateWaDisetujui": "Halo [Nama], pengajuan pinjaman pangan Anda telah disetujui. Silakan ambil barang di kantor koperasi pada [jam layanan].",
+    "templateWaInfoHarga": "Info Lumbung Pangan: stok [komoditas] tersedia, harga acuan Rp[harga]/[satuan] mulai [tanggal]."
+  },
+  "pengguna": [
+    {
+      "id": "usr-petugas",
+      "nama": "Rina Puspitasari",
+      "peran": "Petugas",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-24T07:30:00Z",
+      "jabatanDetail": "Petugas Layanan & Gudang Singotrunan"
+    },
+    {
+      "id": "usr-manajer",
+      "nama": "Budi Hartono",
+      "peran": "Manajer",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-24T07:45:00Z",
+      "jabatanDetail": "Manajer Unit Lumbung Pangan"
+    },
+    {
+      "id": "usr-pengurus",
+      "nama": "H. Ahmad Fauzi",
+      "peran": "Pengurus",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-23T16:10:00Z",
+      "jabatanDetail": "Ketua Pengurus KKMP Singotrunan"
+    },
+    {
+      "id": "usr-bendahara",
+      "nama": "Endang Sulistyorini",
+      "peran": "Bendahara",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-23T15:20:00Z",
+      "jabatanDetail": "Bendahara Koperasi"
+    },
+    {
+      "id": "usr-pengawas",
+      "nama": "Drs. Sutrisno",
+      "peran": "Pengawas",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-22T10:05:00Z",
+      "jabatanDetail": "Pengawas Internal Koperasi"
+    },
+    {
+      "id": "usr-admin",
+      "nama": "Bagus Prakoso",
+      "peran": "Admin",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-24T06:55:00Z",
+      "jabatanDetail": "Admin Sistem & Data"
+    },
+    {
+      "id": "usr-anggota-1",
+      "nama": "Siti Aminah",
+      "peran": "Anggota",
+      "status": "Aktif",
+      "loginTerakhir": "2026-11-24T07:15:00Z",
+      "jabatanDetail": "Anggota Koperasi · RT 02 / RW 01",
+      "linkedAnggotaId": "ang-001"
+    }
+  ],
+  "anggota": [
+    {
+      "id": "ang-001",
+      "nomorAnggota": "KKMP-SGT-2026-001",
+      "nama": "Siti Aminah",
+      "alamat": "Jl. Kenanga Gang II No. 14, Singotrunan",
+      "rtRw": "RT 02 / RW 01",
+      "hp": "0813-5821-1044",
+      "noIdentitasMask": "3510••••••••0042",
+      "kategori": "Umum",
+      "status": "Aktif",
+      "tanggalBergabung": "2025-11-10",
+      "penjaminNama": "Ketua RT 02 (Bpk. Mulyono)",
+      "penjaminHp": "0812-3009-1122",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 240000,
+      "saldoSimpananKg": 25,
+      "saldoSimpananRp": 350000,
+      "ketepatanBayarPersen": 100,
+      "skorKelayakan": 88,
+      "plafonAktifRp": 750000
+    },
+    {
+      "id": "ang-002",
+      "nomorAnggota": "KKMP-SGT-2026-002",
+      "nama": "Hendra Kusuma",
+      "alamat": "Jl. Brawijaya No. 9, Singotrunan",
+      "rtRw": "RT 04 / RW 02",
+      "hp": "0852-3319-4420",
+      "noIdentitasMask": "3510••••••••0118",
+      "kategori": "Petani",
+      "status": "Aktif",
+      "tanggalBergabung": "2025-09-05",
+      "penjaminNama": "Ketua RW 02 (Bpk. Darmawan)",
+      "penjaminHp": "0813-3390-8811",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 300000,
+      "saldoSimpananKg": 42,
+      "saldoSimpananRp": 588000,
+      "ketepatanBayarPersen": 98,
+      "skorKelayakan": 94,
+      "plafonAktifRp": 1000000
+    },
+    {
+      "id": "ang-003",
+      "nomorAnggota": "KKMP-SGT-2026-003",
+      "nama": "Sri Wahyuni",
+      "alamat": "Jl. Melati No. 21, Singotrunan",
+      "rtRw": "RT 01 / RW 01",
+      "hp": "0815-5401-2289",
+      "noIdentitasMask": "3510••••••••0205",
+      "kategori": "Umum",
+      "status": "Aktif",
+      "tanggalBergabung": "2026-02-14",
+      "penjaminNama": "Siti Aminah",
+      "penjaminHp": "0813-5821-1044",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 180000,
+      "saldoSimpananKg": 15,
+      "saldoSimpananRp": 210000,
+      "ketepatanBayarPersen": 100,
+      "skorKelayakan": 82,
+      "plafonAktifRp": 600000
+    },
+    {
+      "id": "ang-004",
+      "nomorAnggota": "KKMP-SGT-2026-004",
+      "nama": "Slamet Riyadi",
+      "alamat": "Jl. Kamboja No. 7, Singotrunan",
+      "rtRw": "RT 03 / RW 03",
+      "hp": "0821-4098-7761",
+      "noIdentitasMask": "3510••••••••0319",
+      "kategori": "Umum",
+      "status": "Aktif",
+      "tanggalBergabung": "2026-04-02",
+      "penjaminNama": "Ketua RT 03 (Bpk. Suharto)",
+      "penjaminHp": "0812-4982-1190",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 140000,
+      "saldoSimpananKg": 10,
+      "saldoSimpananRp": 140000,
+      "ketepatanBayarPersen": 78,
+      "skorKelayakan": 65,
+      "plafonAktifRp": 400000
+    },
+    {
+      "id": "ang-005",
+      "nomorAnggota": "KKMP-SGT-2026-005",
+      "nama": "Dewi Lestari",
+      "alamat": "Jl. Basuki Rahmat Gang V No. 3",
+      "rtRw": "RT 05 / RW 02",
+      "hp": "0878-6112-3004",
+      "noIdentitasMask": "3510••••••••0477",
+      "kategori": "Umum",
+      "status": "Aktif",
+      "tanggalBergabung": "2026-06-18",
+      "penjaminNama": "Ketua RT 05 (Ibu Kartini)",
+      "penjaminHp": "0813-3011-4455",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 100000,
+      "saldoSimpananKg": 12,
+      "saldoSimpananRp": 168000,
+      "ketepatanBayarPersen": 95,
+      "skorKelayakan": 74,
+      "plafonAktifRp": 500000
+    },
+    {
+      "id": "ang-006",
+      "nomorAnggota": "KKMP-SGT-2026-006",
+      "nama": "Agus Santoso",
+      "alamat": "Jl. Anggrek No. 12, Singotrunan",
+      "rtRw": "RT 02 / RW 03",
+      "hp": "0812-1677-9088",
+      "noIdentitasMask": "3510••••••••0511",
+      "kategori": "Petani",
+      "status": "Aktif",
+      "tanggalBergabung": "2026-08-01",
+      "penjaminNama": "Hendra Kusuma",
+      "penjaminHp": "0852-3319-4420",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 80000,
+      "saldoSimpananKg": 8,
+      "saldoSimpananRp": 112000,
+      "ketepatanBayarPersen": 90,
+      "skorKelayakan": 70,
+      "plafonAktifRp": 450000
+    },
+    {
+      "id": "ang-007",
+      "nomorAnggota": "KKMP-SGT-2026-007",
+      "nama": "Nurhayati",
+      "alamat": "Jl. Cempaka No. 19, Singotrunan",
+      "rtRw": "RT 06 / RW 01",
+      "hp": "0857-4902-1180",
+      "noIdentitasMask": "3510••••••••0693",
+      "kategori": "Umum",
+      "status": "Aktif",
+      "tanggalBergabung": "2026-07-12",
+      "penjaminNama": "Ketua RT 06 (Bpk. Wahyudi)",
+      "penjaminHp": "0813-5900-2211",
+      "simpananPokokRp": 100000,
+      "simpananWajibRp": 100000,
+      "saldoSimpananKg": 18,
+      "saldoSimpananRp": 252000,
+      "ketepatanBayarPersen": 72,
+      "skorKelayakan": 60,
+      "plafonAktifRp": 500000
+    }
+  ],
+  "komoditas": [
+    {
+      "id": "kom-beras-med",
+      "nama": "Beras Medium",
+      "satuan": "kg",
+      "kategori": "Pangan Pokok",
+      "stokMinimum": 150,
+      "stokMaksimum": 1000,
+      "stokTotal": 420
+    },
+    {
+      "id": "kom-beras-prem",
+      "nama": "Beras Premium Banyuwangi",
+      "satuan": "kg",
+      "kategori": "Pangan Pokok",
+      "stokMinimum": 100,
+      "stokMaksimum": 600,
+      "stokTotal": 215
+    },
+    {
+      "id": "kom-minyak",
+      "nama": "Minyak Goreng",
+      "satuan": "liter",
+      "kategori": "Minyak & Gula",
+      "stokMinimum": 50,
+      "stokMaksimum": 300,
+      "stokTotal": 110
+    },
+    {
+      "id": "kom-gula",
+      "nama": "Gula Pasir",
+      "satuan": "kg",
+      "kategori": "Minyak & Gula",
+      "stokMinimum": 40,
+      "stokMaksimum": 250,
+      "stokTotal": 85
+    },
+    {
+      "id": "kom-telur",
+      "nama": "Telur Ayam Ras",
+      "satuan": "kg",
+      "kategori": "Protein & Tepung",
+      "stokMinimum": 35,
+      "stokMaksimum": 120,
+      "stokTotal": 28
+    },
+    {
+      "id": "kom-terigu",
+      "nama": "Tepung Terigu",
+      "satuan": "kg",
+      "kategori": "Protein & Tepung",
+      "stokMinimum": 30,
+      "stokMaksimum": 180,
+      "stokTotal": 64
+    },
+    {
+      "id": "kom-kedelai",
+      "nama": "Kedelai Lokal",
+      "satuan": "kg",
+      "kategori": "Protein & Tepung",
+      "stokMinimum": 25,
+      "stokMaksimum": 150,
+      "stokTotal": 45
+    }
+  ],
+  "hargaAcuan": [
+    {
+      "id": "hrg-1",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "satuan": "kg",
+      "harga": 14000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    },
+    {
+      "id": "hrg-2",
+      "komoditasId": "kom-beras-prem",
+      "komoditasNama": "Beras Premium Banyuwangi",
+      "satuan": "kg",
+      "harga": 16000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    },
+    {
+      "id": "hrg-3",
+      "komoditasId": "kom-minyak",
+      "komoditasNama": "Minyak Goreng",
+      "satuan": "liter",
+      "harga": 20000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    },
+    {
+      "id": "hrg-4",
+      "komoditasId": "kom-gula",
+      "komoditasNama": "Gula Pasir",
+      "satuan": "kg",
+      "harga": 20000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    },
+    {
+      "id": "hrg-5",
+      "komoditasId": "kom-telur",
+      "komoditasNama": "Telur Ayam Ras",
+      "satuan": "kg",
+      "harga": 29000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    },
+    {
+      "id": "hrg-6",
+      "komoditasId": "kom-terigu",
+      "komoditasNama": "Tepung Terigu",
+      "satuan": "kg",
+      "harga": 13000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    },
+    {
+      "id": "hrg-7",
+      "komoditasId": "kom-kedelai",
+      "komoditasNama": "Kedelai Lokal",
+      "satuan": "kg",
+      "harga": 15000,
+      "berlakuMulai": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono (Manajer)"
+    }
+  ],
+  "riwayatHarga": [
+    {
+      "id": "rhrg-1",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "hargaLama": 13500,
+      "hargaBaru": 14000,
+      "tanggal": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono",
+      "catatan": "Peninjauan bulanan November 2026 mengikuti harga gabah lokal."
+    },
+    {
+      "id": "rhrg-2",
+      "komoditasId": "kom-minyak",
+      "komoditasNama": "Minyak Goreng",
+      "hargaLama": 19000,
+      "hargaBaru": 20000,
+      "tanggal": "2026-11-01",
+      "ditetapkanOleh": "Budi Hartono",
+      "catatan": "Penyesuaian harga distributor Banyuwangi."
+    }
+  ],
+  "stokBatches": [
+    {
+      "id": "btc-1",
+      "kodeBatch": "BRM-2610-A",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "satuan": "kg",
+      "jumlahAwal": 300,
+      "jumlahSisa": 180,
+      "tanggalMasuk": "2026-10-15",
+      "tanggalKedaluwarsa": "2027-04-15",
+      "hargaPokok": 13000
+    },
+    {
+      "id": "btc-2",
+      "kodeBatch": "BRM-2611-B",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "satuan": "kg",
+      "jumlahAwal": 240,
+      "jumlahSisa": 240,
+      "tanggalMasuk": "2026-11-10",
+      "tanggalKedaluwarsa": "2027-06-10",
+      "hargaPokok": 13200
+    },
+    {
+      "id": "btc-3",
+      "kodeBatch": "BRP-2611-A",
+      "komoditasId": "kom-beras-prem",
+      "komoditasNama": "Beras Premium Banyuwangi",
+      "satuan": "kg",
+      "jumlahAwal": 250,
+      "jumlahSisa": 215,
+      "tanggalMasuk": "2026-11-05",
+      "tanggalKedaluwarsa": "2027-05-05",
+      "hargaPokok": 15000
+    },
+    {
+      "id": "btc-4",
+      "kodeBatch": "MYK-2610-A",
+      "komoditasId": "kom-minyak",
+      "komoditasNama": "Minyak Goreng",
+      "satuan": "liter",
+      "jumlahAwal": 150,
+      "jumlahSisa": 110,
+      "tanggalMasuk": "2026-10-20",
+      "tanggalKedaluwarsa": "2027-08-20",
+      "hargaPokok": 18500
+    },
+    {
+      "id": "btc-5",
+      "kodeBatch": "GUL-2611-A",
+      "komoditasId": "kom-gula",
+      "komoditasNama": "Gula Pasir",
+      "satuan": "kg",
+      "jumlahAwal": 120,
+      "jumlahSisa": 85,
+      "tanggalMasuk": "2026-11-02",
+      "tanggalKedaluwarsa": "2027-11-02",
+      "hargaPokok": 18500
+    },
+    {
+      "id": "btc-6",
+      "kodeBatch": "TLR-2611-A",
+      "komoditasId": "kom-telur",
+      "komoditasNama": "Telur Ayam Ras",
+      "satuan": "kg",
+      "jumlahAwal": 50,
+      "jumlahSisa": 28,
+      "tanggalMasuk": "2026-11-18",
+      "tanggalKedaluwarsa": "2026-12-03",
+      "hargaPokok": 27000
+    },
+    {
+      "id": "btc-7",
+      "kodeBatch": "TRG-2610-A",
+      "komoditasId": "kom-terigu",
+      "komoditasNama": "Tepung Terigu",
+      "satuan": "kg",
+      "jumlahAwal": 80,
+      "jumlahSisa": 64,
+      "tanggalMasuk": "2026-10-12",
+      "tanggalKedaluwarsa": "2026-12-20",
+      "hargaPokok": 12000
+    },
+    {
+      "id": "btc-8",
+      "kodeBatch": "KDL-2611-A",
+      "komoditasId": "kom-kedelai",
+      "komoditasNama": "Kedelai Lokal",
+      "satuan": "kg",
+      "jumlahAwal": 50,
+      "jumlahSisa": 45,
+      "tanggalMasuk": "2026-11-08",
+      "tanggalKedaluwarsa": "2027-05-08",
+      "hargaPokok": 13800
+    }
+  ],
+  "stokMutasi": [
+    {
+      "id": "mut-1",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "satuan": "kg",
+      "tipe": "Masuk",
+      "jumlah": 240,
+      "kodeBatch": "BRM-2611-B",
+      "tanggalKedaluwarsa": "2027-06-10",
+      "referensiTransaksi": "PO-GDG-2026-112",
+      "tanggal": "2026-11-10",
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Pasokan dari Gabungan Kelompok Tani Singotrunan"
+    },
+    {
+      "id": "mut-2",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "satuan": "kg",
+      "tipe": "Keluar",
+      "jumlah": 10,
+      "kodeBatch": "BRM-2610-A",
+      "referensiTransaksi": "PJM-2026-014",
+      "tanggal": "2026-09-27",
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Serah terima pinjaman pangan Siti Aminah (FEFO)"
+    },
+    {
+      "id": "mut-3",
+      "komoditasId": "kom-telur",
+      "komoditasNama": "Telur Ayam Ras",
+      "satuan": "kg",
+      "tipe": "Penyusutan",
+      "jumlah": 2,
+      "kodeBatch": "TLR-2611-A",
+      "referensiTransaksi": "OPN-2026-112",
+      "tanggal": "2026-11-21",
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Telur retak saat sortir mingguan"
+    }
+  ],
+  "stokOpname": [
+    {
+      "id": "opn-1",
+      "tanggal": "2026-11-15",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "satuan": "kg",
+      "stokSistem": 422,
+      "stokFisik": 420,
+      "selisih": -2,
+      "selisihPersen": 0.47,
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Susut timbang wajar < 0,5% disaksikan Pengawas."
+    }
+  ],
+  "simpananPangan": [
+    {
+      "id": "smp-1",
+      "anggotaId": "ang-001",
+      "anggotaNama": "Siti Aminah",
+      "tipe": "Setor",
+      "bentuk": "Beras",
+      "jumlahKg": 15,
+      "nilaiRp": 210000,
+      "hargaBerasAcuan": 14000,
+      "tanggal": "2026-10-05",
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Setoran simpanan pangan beras bulanan"
+    },
+    {
+      "id": "smp-2",
+      "anggotaId": "ang-001",
+      "anggotaNama": "Siti Aminah",
+      "tipe": "Setor",
+      "bentuk": "Uang",
+      "jumlahKg": 10,
+      "nilaiRp": 140000,
+      "hargaBerasAcuan": 14000,
+      "tanggal": "2026-11-04",
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Setor tunai dikonversi ke saldo beras 10 kg"
+    },
+    {
+      "id": "smp-3",
+      "anggotaId": "ang-002",
+      "anggotaNama": "Hendra Kusuma",
+      "tipe": "Setor",
+      "bentuk": "Beras",
+      "jumlahKg": 42,
+      "nilaiRp": 588000,
+      "hargaBerasAcuan": 14000,
+      "tanggal": "2026-11-02",
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Setoran hasil panen anggota petani"
+    }
+  ],
+  "pinjaman": [
+    {
+      "id": "pjm-14",
+      "kodePinjaman": "PJM-2026-014",
+      "anggotaId": "ang-001",
+      "anggotaNama": "Siti Aminah",
+      "tanggalPengajuan": "2026-09-26",
+      "tanggalDisetujui": "2026-09-26",
+      "tanggalSerahTerima": "2026-09-27",
+      "tanggalJatuhTempo": "2026-11-27",
+      "items": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "satuan": "kg",
+          "jumlah": 10,
+          "hargaSaatTransaksi": 14000,
+          "subtotalRp": 140000
+        },
+        {
+          "komoditasId": "kom-minyak",
+          "komoditasNama": "Minyak Goreng",
+          "satuan": "liter",
+          "jumlah": 2,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 40000
+        },
+        {
+          "komoditasId": "kom-gula",
+          "komoditasNama": "Gula Pasir",
+          "satuan": "kg",
+          "jumlah": 1,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 20000
+        }
+      ],
+      "nilaiPinjamanRp": 200000,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 2,
+      "jasaRp": 8000,
+      "totalKembaliRp": 208000,
+      "sudahDibayarRp": 100000,
+      "sisaTagihanRp": 108000,
+      "status": "Berjalan",
+      "wajibPenjamin": false,
+      "penjaminNama": "Ketua RT 02 (Bpk. Mulyono)",
+      "penjaminKonfirmasi": true,
+      "penyetujuNama": "Budi Hartono",
+      "penyetujuPeran": "Manajer",
+      "petugasSerahNama": "Rina Puspitasari"
+    },
+    {
+      "id": "pjm-15",
+      "kodePinjaman": "PJM-2026-015",
+      "anggotaId": "ang-002",
+      "anggotaNama": "Hendra Kusuma",
+      "tanggalPengajuan": "2026-11-23",
+      "tanggalJatuhTempo": "2027-03-23",
+      "items": [
+        {
+          "komoditasId": "kom-beras-prem",
+          "komoditasNama": "Beras Premium Banyuwangi",
+          "satuan": "kg",
+          "jumlah": 25,
+          "hargaSaatTransaksi": 16000,
+          "subtotalRp": 400000
+        },
+        {
+          "komoditasId": "kom-minyak",
+          "komoditasNama": "Minyak Goreng",
+          "satuan": "liter",
+          "jumlah": 6,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 120000
+        },
+        {
+          "komoditasId": "kom-gula",
+          "komoditasNama": "Gula Pasir",
+          "satuan": "kg",
+          "jumlah": 5,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 100000
+        }
+      ],
+      "nilaiPinjamanRp": 620000,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 4,
+      "jasaRp": 49600,
+      "totalKembaliRp": 669600,
+      "sudahDibayarRp": 0,
+      "sisaTagihanRp": 669600,
+      "status": "Diajukan",
+      "wajibPenjamin": true,
+      "penjaminNama": "Ketua RW 02 (Bpk. Darmawan)",
+      "penjaminKonfirmasi": true,
+      "catatan": "Tenor khusus anggota petani (4 bulan) untuk kebutuhan panen."
+    },
+    {
+      "id": "pjm-16",
+      "kodePinjaman": "PJM-2026-016",
+      "anggotaId": "ang-005",
+      "anggotaNama": "Dewi Lestari",
+      "tanggalPengajuan": "2026-11-24",
+      "tanggalJatuhTempo": "2027-01-24",
+      "items": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "satuan": "kg",
+          "jumlah": 15,
+          "hargaSaatTransaksi": 14000,
+          "subtotalRp": 210000
+        },
+        {
+          "komoditasId": "kom-minyak",
+          "komoditasNama": "Minyak Goreng",
+          "satuan": "liter",
+          "jumlah": 3,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 60000
+        },
+        {
+          "komoditasId": "kom-terigu",
+          "komoditasNama": "Tepung Terigu",
+          "satuan": "kg",
+          "jumlah": 4,
+          "hargaSaatTransaksi": 13000,
+          "subtotalRp": 52000
+        }
+      ],
+      "nilaiPinjamanRp": 322000,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 2,
+      "jasaRp": 12880,
+      "totalKembaliRp": 334880,
+      "sudahDibayarRp": 0,
+      "sisaTagihanRp": 334880,
+      "status": "Diajukan",
+      "wajibPenjamin": false,
+      "penjaminNama": "Ketua RT 05 (Ibu Kartini)",
+      "penjaminKonfirmasi": true
+    },
+    {
+      "id": "pjm-13",
+      "kodePinjaman": "PJM-2026-013",
+      "anggotaId": "ang-006",
+      "anggotaNama": "Agus Santoso",
+      "tanggalPengajuan": "2026-11-22",
+      "tanggalDisetujui": "2026-11-23",
+      "tanggalJatuhTempo": "2027-01-23",
+      "items": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "satuan": "kg",
+          "jumlah": 20,
+          "hargaSaatTransaksi": 14000,
+          "subtotalRp": 280000
+        }
+      ],
+      "nilaiPinjamanRp": 280000,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 2,
+      "jasaRp": 11200,
+      "totalKembaliRp": 291200,
+      "sudahDibayarRp": 0,
+      "sisaTagihanRp": 291200,
+      "status": "Disetujui",
+      "wajibPenjamin": false,
+      "penjaminNama": "Hendra Kusuma",
+      "penjaminKonfirmasi": true,
+      "penyetujuNama": "Budi Hartono",
+      "penyetujuPeran": "Manajer",
+      "catatan": "Siap diambil di loket gudang Singotrunan."
+    },
+    {
+      "id": "pjm-11",
+      "kodePinjaman": "PJM-2026-011",
+      "anggotaId": "ang-004",
+      "anggotaNama": "Slamet Riyadi",
+      "tanggalPengajuan": "2026-09-18",
+      "tanggalDisetujui": "2026-09-18",
+      "tanggalSerahTerima": "2026-09-18",
+      "tanggalJatuhTempo": "2026-11-18",
+      "items": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "satuan": "kg",
+          "jumlah": 20,
+          "hargaSaatTransaksi": 14000,
+          "subtotalRp": 280000
+        },
+        {
+          "komoditasId": "kom-gula",
+          "komoditasNama": "Gula Pasir",
+          "satuan": "kg",
+          "jumlah": 4,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 80000
+        }
+      ],
+      "nilaiPinjamanRp": 360000,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 2,
+      "jasaRp": 14400,
+      "totalKembaliRp": 374400,
+      "sudahDibayarRp": 150000,
+      "sisaTagihanRp": 224400,
+      "status": "Terlambat",
+      "wajibPenjamin": false,
+      "penjaminNama": "Ketua RT 03 (Bpk. Suharto)",
+      "penjaminKonfirmasi": true,
+      "penyetujuNama": "Budi Hartono",
+      "penyetujuPeran": "Manajer",
+      "petugasSerahNama": "Rina Puspitasari"
+    },
+    {
+      "id": "pjm-09",
+      "kodePinjaman": "PJM-2026-009",
+      "anggotaId": "ang-007",
+      "anggotaNama": "Nurhayati",
+      "tanggalPengajuan": "2026-08-04",
+      "tanggalDisetujui": "2026-08-04",
+      "tanggalSerahTerima": "2026-08-04",
+      "tanggalJatuhTempo": "2026-11-04",
+      "items": [
+        {
+          "komoditasId": "kom-beras-prem",
+          "komoditasNama": "Beras Premium Banyuwangi",
+          "satuan": "kg",
+          "jumlah": 20,
+          "hargaSaatTransaksi": 16000,
+          "subtotalRp": 320000
+        },
+        {
+          "komoditasId": "kom-minyak",
+          "komoditasNama": "Minyak Goreng",
+          "satuan": "liter",
+          "jumlah": 4,
+          "hargaSaatTransaksi": 20000,
+          "subtotalRp": 80000
+        }
+      ],
+      "nilaiPinjamanRp": 400000,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 3,
+      "jasaRp": 24000,
+      "totalKembaliRp": 424000,
+      "sudahDibayarRp": 124000,
+      "sisaTagihanRp": 300000,
+      "status": "Terlambat",
+      "wajibPenjamin": false,
+      "penjaminNama": "Ketua RT 06 (Bpk. Wahyudi)",
+      "penjaminKonfirmasi": true,
+      "penyetujuNama": "Budi Hartono",
+      "penyetujuPeran": "Manajer",
+      "petugasSerahNama": "Rina Puspitasari"
+    },
+    {
+      "id": "pjm-06",
+      "kodePinjaman": "PJM-2026-006",
+      "anggotaId": "ang-003",
+      "anggotaNama": "Sri Wahyuni",
+      "tanggalPengajuan": "2026-08-15",
+      "tanggalDisetujui": "2026-08-15",
+      "tanggalSerahTerima": "2026-08-16",
+      "tanggalJatuhTempo": "2026-10-16",
+      "items": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "satuan": "kg",
+          "jumlah": 15,
+          "hargaSaatTransaksi": 13500,
+          "subtotalRp": 202500
+        },
+        {
+          "komoditasId": "kom-gula",
+          "komoditasNama": "Gula Pasir",
+          "satuan": "kg",
+          "jumlah": 2,
+          "hargaSaatTransaksi": 19000,
+          "subtotalRp": 38000
+        }
+      ],
+      "nilaiPinjamanRp": 240500,
+      "tarifJasaPersen": 2,
+      "tenorBulan": 2,
+      "jasaRp": 9620,
+      "totalKembaliRp": 250120,
+      "sudahDibayarRp": 250120,
+      "sisaTagihanRp": 0,
+      "status": "Lunas",
+      "wajibPenjamin": false,
+      "penjaminNama": "Siti Aminah",
+      "penjaminKonfirmasi": true,
+      "penyetujuNama": "Budi Hartono",
+      "penyetujuPeran": "Manajer",
+      "petugasSerahNama": "Rina Puspitasari"
+    }
+  ],
+  "angsuran": [
+    {
+      "id": "angsr-1",
+      "nomorKuitansi": "KWT-2026-088",
+      "pinjamanId": "pjm-14",
+      "kodePinjaman": "PJM-2026-014",
+      "anggotaId": "ang-001",
+      "anggotaNama": "Siti Aminah",
+      "tanggal": "2026-10-27",
+      "metode": "Tunai",
+      "jumlahRp": 100000,
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Angsuran bulan ke-1"
+    },
+    {
+      "id": "angsr-2",
+      "nomorKuitansi": "KWT-2026-081",
+      "pinjamanId": "pjm-06",
+      "kodePinjaman": "PJM-2026-006",
+      "anggotaId": "ang-003",
+      "anggotaNama": "Sri Wahyuni",
+      "tanggal": "2026-10-14",
+      "metode": "Barang Setara",
+      "jumlahRp": 140000,
+      "barangDetail": {
+        "komoditasId": "kom-beras-med",
+        "komoditasNama": "Beras Medium",
+        "satuan": "kg",
+        "jumlah": 10,
+        "hargaKonversi": 14000
+      },
+      "petugasNama": "Rina Puspitasari",
+      "catatan": "Pelunasan dengan 10 kg Beras Medium kualitas baik."
+    }
+  ],
+  "paketSembako": [
+    {
+      "id": "pkt-1",
+      "nama": "Paket Sembako Hemat Keluarga",
+      "deskripsi": "Kebutuhan pokok mingguan keluarga: beras, minyak goreng, dan gula pasir.",
+      "isi": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "jumlah": 5,
+          "satuan": "kg"
+        },
+        {
+          "komoditasId": "kom-minyak",
+          "komoditasNama": "Minyak Goreng",
+          "jumlah": 1,
+          "satuan": "liter"
+        },
+        {
+          "komoditasId": "kom-gula",
+          "komoditasNama": "Gula Pasir",
+          "jumlah": 1,
+          "satuan": "kg"
+        }
+      ],
+      "hargaPokokRp": 102000,
+      "marginPersen": 5,
+      "hargaJualRp": 107000,
+      "gambarUrl": "/src/assets/images/paket_sembako_hemat_1795507216815.jpg",
+      "aktif": true
+    },
+    {
+      "id": "pkt-2",
+      "nama": "Paket Beras Bulanan Banyuwangi",
+      "deskripsi": "Beras pilihan petani lokal Singotrunan dikemas higienis 10 kg + tepung terigu.",
+      "isi": [
+        {
+          "komoditasId": "kom-beras-prem",
+          "komoditasNama": "Beras Premium Banyuwangi",
+          "jumlah": 10,
+          "satuan": "kg"
+        },
+        {
+          "komoditasId": "kom-terigu",
+          "komoditasNama": "Tepung Terigu",
+          "jumlah": 2,
+          "satuan": "kg"
+        }
+      ],
+      "hargaPokokRp": 174000,
+      "marginPersen": 5.5,
+      "hargaJualRp": 183500,
+      "gambarUrl": "/src/assets/images/beras_organik_banyuwangi_1795507217220.jpg",
+      "aktif": true
+    },
+    {
+      "id": "pkt-3",
+      "nama": "Paket Dapur Lengkap & Protein",
+      "deskripsi": "Kombinasi beras medium, minyak goreng, gula pasir, dan telur ayam segar.",
+      "isi": [
+        {
+          "komoditasId": "kom-beras-med",
+          "komoditasNama": "Beras Medium",
+          "jumlah": 10,
+          "satuan": "kg"
+        },
+        {
+          "komoditasId": "kom-minyak",
+          "komoditasNama": "Minyak Goreng",
+          "jumlah": 2,
+          "satuan": "liter"
+        },
+        {
+          "komoditasId": "kom-gula",
+          "komoditasNama": "Gula Pasir",
+          "jumlah": 2,
+          "satuan": "kg"
+        },
+        {
+          "komoditasId": "kom-telur",
+          "komoditasNama": "Telur Ayam Ras",
+          "jumlah": 1,
+          "satuan": "kg"
+        }
+      ],
+      "hargaPokokRp": 235000,
+      "marginPersen": 6,
+      "hargaJualRp": 249000,
+      "gambarUrl": "/src/assets/images/paket_sembako_hemat_1795507216815.jpg",
+      "aktif": true
+    }
+  ],
+  "pesananPaket": [
+    {
+      "id": "ord-1",
+      "kodePesanan": "PKT-2026-041",
+      "anggotaId": "ang-001",
+      "anggotaNama": "Siti Aminah",
+      "paketId": "pkt-1",
+      "paketNama": "Paket Sembako Hemat Keluarga",
+      "hargaJualRp": 107000,
+      "tenorMingguan": 4,
+      "cicilanPerMingguRp": 26750,
+      "sudahDibayarRp": 53500,
+      "sisaTagihanRp": 53500,
+      "jadwalCicilan": [
+        {
+          "ke": 1,
+          "jatuhTempo": "2026-11-10",
+          "jumlahRp": 26750,
+          "lunas": true,
+          "tanggalBayar": "2026-11-10"
+        },
+        {
+          "ke": 2,
+          "jatuhTempo": "2026-11-17",
+          "jumlahRp": 26750,
+          "lunas": true,
+          "tanggalBayar": "2026-11-17"
+        },
+        {
+          "ke": 3,
+          "jatuhTempo": "2026-11-24",
+          "jumlahRp": 26750,
+          "lunas": false
+        },
+        {
+          "ke": 4,
+          "jatuhTempo": "2026-12-01",
+          "jumlahRp": 26750,
+          "lunas": false
+        }
+      ],
+      "status": "Aktif",
+      "tanggalPesan": "2026-11-03"
+    }
+  ],
+  "kasTransaksi": [
+    {
+      "id": "kas-1",
+      "tanggal": "2026-11-04",
+      "tipe": "Masuk",
+      "kategori": "Simpanan Pangan",
+      "jumlahRp": 140000,
+      "akun": "Kas Loket Koperasi",
+      "referensi": "SMP-2",
+      "statusPersetujuan": "Disetujui",
+      "dibuatOleh": "Rina Puspitasari",
+      "disetujuiOleh": "Endang Sulistyorini",
+      "catatan": "Setoran simpanan pangan Siti Aminah"
+    },
+    {
+      "id": "kas-2",
+      "tanggal": "2026-11-10",
+      "tipe": "Keluar",
+      "kategori": "Pembelian Stok",
+      "jumlahRp": 3168000,
+      "akun": "Rekening Bank Jatim KKMP",
+      "referensi": "PO-GDG-2026-112",
+      "statusPersetujuan": "Disetujui",
+      "dibuatOleh": "Budi Hartono",
+      "disetujuiOleh": "Endang Sulistyorini",
+      "catatan": "Pembelian 240 kg Beras Medium batch BRM-2611-B"
+    },
+    {
+      "id": "kas-3",
+      "tanggal": "2026-11-17",
+      "tipe": "Masuk",
+      "kategori": "Cicilan Paket Sembako",
+      "jumlahRp": 26750,
+      "akun": "Kas Loket Koperasi",
+      "referensi": "PKT-2026-041",
+      "statusPersetujuan": "Disetujui",
+      "dibuatOleh": "Rina Puspitasari",
+      "disetujuiOleh": "Endang Sulistyorini",
+      "catatan": "Cicilan minggu ke-2 paket sembako Siti Aminah"
+    },
+    {
+      "id": "kas-4",
+      "tanggal": "2026-11-23",
+      "tipe": "Keluar",
+      "kategori": "Operasional",
+      "jumlahRp": 175000,
+      "akun": "Kas Kecil",
+      "referensi": "OPR-2026-019",
+      "statusPersetujuan": "Menunggu Bendahara",
+      "dibuatOleh": "Rina Puspitasari",
+      "catatan": "Pengadaan kemasan karung 5 kg dan kertas cetak struk termal"
+    }
+  ],
+  "penyaluranDarurat": [
+    {
+      "id": "drt-1",
+      "tanggal": "2026-11-12",
+      "penerimaNama": "Keluarga Mbah Ponirah",
+      "rtRw": "RT 03 / RW 01",
+      "alasan": "Lansia rentan pasca banjir lokal ringan",
+      "jenis": "Beras Sosial",
+      "komoditasId": "kom-beras-med",
+      "komoditasNama": "Beras Medium",
+      "jumlahKg": 10,
+      "nilaiRp": 140000,
+      "petugasNama": "Rina Puspitasari"
+    }
+  ],
+  "penagihan": [
+    {
+      "id": "tgh-1",
+      "pinjamanId": "pjm-11",
+      "kodePinjaman": "PJM-2026-011",
+      "anggotaId": "ang-004",
+      "anggotaNama": "Slamet Riyadi",
+      "tanggal": "2026-11-21",
+      "tindakan": "Pengingat WhatsApp",
+      "hasil": "Pesan diterima, anggota berjanji melunasi akhir pekan ini.",
+      "janjiBayarTanggal": "2026-11-28",
+      "petugasNama": "Rina Puspitasari"
+    },
+    {
+      "id": "tgh-2",
+      "pinjamanId": "pjm-09",
+      "kodePinjaman": "PJM-2026-009",
+      "anggotaId": "ang-007",
+      "anggotaNama": "Nurhayati",
+      "tanggal": "2026-11-18",
+      "tindakan": "Kunjungan Lapangan",
+      "hasil": "Bertemu keluarga, sepakat mencicil Rp150.000 pada 26 Nov 2026.",
+      "janjiBayarTanggal": "2026-11-26",
+      "petugasNama": "Rina Puspitasari"
+    }
+  ],
+  "notifikasi": [
+    {
+      "id": "ntf-1",
+      "tanggal": "2026-11-24T07:00:00Z",
+      "judul": "Harga Acuan Beras & Komoditas November 2026",
+      "isi": "Info Lumbung Pangan: stok beras medium tersedia 420 kg, harga acuan Rp14.000/kg mulai 1 November 2026. Pengambilan barang layanan loket Senin–Sabtu pukul 08.00–15.00 WIB.",
+      "kanal": "Portal",
+      "tujuan": "Seluruh Anggota KKMP Singotrunan",
+      "statusKirim": "Terkirim",
+      "dibuatOleh": "Budi Hartono"
+    },
+    {
+      "id": "ntf-2",
+      "tanggal": "2026-11-24T07:05:00Z",
+      "judul": "Pengingat Jatuh Tempo H-3 (Siti Aminah)",
+      "isi": "Halo Siti Aminah, pinjaman pangan Anda sebesar Rp108.000 jatuh tempo pada 27 Nov 2026. Silakan lakukan pembayaran di kantor Koperasi Merah Putih Singotrunan. Terima kasih.",
+      "kanal": "WhatsApp",
+      "tujuan": "Siti Aminah (0813-5821-1044)",
+      "statusKirim": "Terkirim",
+      "dibuatOleh": "Sistem Pengingat"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "aud-1",
+      "waktu": "2026-11-23T14:20:00Z",
+      "penggunaNama": "Budi Hartono",
+      "penggunaPeran": "Manajer",
+      "aksi": "Persetujuan Pinjaman",
+      "objek": "PJM-2026-013 (Agus Santoso)",
+      "nilaiLama": "Diajukan",
+      "nilaiBaru": "Disetujui (Rp280.000)"
+    },
+    {
+      "id": "aud-2",
+      "waktu": "2026-11-21T09:15:00Z",
+      "penggunaNama": "Rina Puspitasari",
+      "penggunaPeran": "Petugas",
+      "aksi": "Catat Penyusutan Stok",
+      "objek": "Telur Ayam Ras (TLR-2611-A)",
+      "nilaiLama": "30 kg",
+      "nilaiBaru": "28 kg (-2 kg sortir)"
+    },
+    {
+      "id": "aud-3",
+      "waktu": "2026-11-01T08:00:00Z",
+      "penggunaNama": "Budi Hartono",
+      "penggunaPeran": "Manajer",
+      "aksi": "Ubah Harga Acuan",
+      "objek": "Beras Medium",
+      "nilaiLama": "Rp13.500/kg",
+      "nilaiBaru": "Rp14.000/kg"
+    }
+  ]
+}

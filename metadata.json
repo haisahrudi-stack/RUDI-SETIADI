@@ -1,0 +1,8 @@
+{
+  "name": "Lumbung Pangan Merah Putih",
+  "description": "Sistem informasi simpan pinjam bahan pokok, paket sembako cicil, stok gudang FEFO, dan portal anggota Koperasi Kelurahan Merah Putih (KKMP) Singotrunan, Banyuwangi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
